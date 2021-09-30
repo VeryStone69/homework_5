@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Exercise 4</title>
+</head>
+<body class="bodyExers4">
+
+    <nav class="navLink">
+        <div><a href="index.html">Главная страница</a></div>
+        <div><a href="exers2.html">Задание 2</a></div>
+        <div><a href="exers3.html">Задание 3</a></div>
+    </nav>
+
+    <div class="divFormInput">
+        <form>
+            <p>Даны значения:</p>
+            <label>
+                <p>x<sub>i</sub>
+                    <input id="valueX" type="text" value="0.3; 5.2; 9.4; 8">
+                </p>
+            </label>
+            <label>
+                <p>y<sub>i</sub>
+                    <input id="valueY" type="text" value="43;5;3.4; 8; 20">
+                </p>
+            </label>
+            <input class="btn1" type="button" onclick="result1()" value="Получить результат первым методом">
+            <input class="btn2" type="button" onclick="result2()" value="Получить результат вторым методом">
+        </form>
+
+        <div id="show"></div>
+    </div>
+
+    <script src="js/exers4.js"></script>
+
+</body>
+</html>
